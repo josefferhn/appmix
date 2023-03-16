@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	/*--f7-page-bg-color:#232424;*/
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.img-fluid{
+	max-width: 100%;
+	display: block;
+}
+p,h1,h2,h3,h4,h5,h6{
+	margin: 5px 0;
+}
+
+.panel-left{
+	background-color: #fafafa;
+}
+.panel-info{
+	margin-top: 0;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.panel-info p{
+	color: #aaa;
+	font-size: 12px;
+} 
+.panel-left .list ul{
+	background-color: transparent;
+	font-size: 14px;
+	
+}
+.panel-left span.material-icons{
+	color: var(--f7-theme-color);
+	font-size: 20px;
+}
+
+
+#papers.page{
+	background-color: #232424;
+}
+
+#papers .block-title-medium{
+	color: #fff;
+	font-size: 22px;
+}
+#papers .block-title a{
+	color: #bdbdbd;
+}
+#papers .link-all{
+	margin-top: 30px;
+}
+
+#papers .card-header{
+	padding: 0;
+	border-radius: 0;
+}
+#papers .card-header img{
+	border-radius: 5px;
+}
+#papers .card-content{
+	color: #fff;
+	font-size: 13px;
+}
+#papers .card-content p{
+	font-size: 11px;
+}
+#papers .card{
+	box-shadow: none;
+	background-color: transparent;
+}
+#papers .card i{
+	font-size: 12px;
+	margin-right: 5px;
+	vertical-align: text-top;
+}
+
+.small{
+	font-size: 85%;
+}
+
+.login-screen-style .page{
+	background-color: #FF862F;
+	
+}
+.login-screen-style .login-screen-content{
+	margin-top: 20% !important;
+	background-color: transparent;
+}
+.login-screen-style .button{
+	background-color: transparent;
+	border: 1px solid #fff;
+	height: 60px;
+	line-height: 60px;
+}
+.login-screen-style .login-screen-title{
+	font-size: 65px;
+	color: #fff;
+	text-transform: lowercase;
+	font-weight: 500;
+}
+.login-screen-style a{
+	color: #fff;
+	font-weight: 400;
+}
+.login-screen-style .block-footer{
+	color: #fff;
+	font-weight: 300;
+}
+.login-screen-style .item-label{
+	color: #fff;
+}
+.login-screen-style input,
+.login-screen-style input::placeholder{
+	color: #fff;
+}
+
+
+.fab-right-bottom{
+	bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
